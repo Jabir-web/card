@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: maroon;
+}
+
+.textcolor{
+    color: maroon;
+}
+
+.addcard{
+    background-color: bisque;
+    width: 500px;
+    padding: 40px;
+}
+
+.abu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    height: 85vh;
+}
+
+.jbtn{
+    background-color: maroon;
+    color: bisque;
+    padding: 7px 15px;
+    border: none;
+    box-shadow: inset 0px 0px 0px black;
+    transition: .5s ease;
+}
+
+.jbtn:hover{
+    box-shadow: inset 0px 150px 0px black;
+
+}
+
+textarea{
+    resize: none;
+}
+
+
+.form-control{
+    outline: none !important;
+    border: none !important;
+}
+.form-control:active{
+    border: none !important;
+}
+
+.form-control:focus{
+    border: none !important;
+    outline: none !important;
+    box-shadow: inset 1px 1px 7px rgb(124, 43, 43) !important;
+}
